@@ -28,7 +28,7 @@ Log in to Docker Hub in your browser and hit 'Create repository'. Name the repo 
   * name one as `DOCKER_USERNAME` and assign its value to your Docker Hub username (not your email);
   * name the other as `DOCKER_PASSWORD` and assign its value to your Docker Hub password.
 
-### 4. Customize the image and publish it to your Docker Hub account
+### 4. Customize the image and publish it to your Docker Hub accounts
 
 This repo has a GitHub action configured so every time you push a new commit to the `main` branch, an image is pushed to your Docker Hub 'actions-demo' repo.
 To make sure it works, 
